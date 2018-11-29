@@ -1,0 +1,25 @@
+.t0 {
+  margin-top: 10px;
+  margin-right: -8px;
+  margin-top: 4px;
+}
+.t1 {
+  color : white;
+  font-size: 20px;
+}
+.vl {
+
+    border-color: white;
+}
+.ml {
+
+  border-color: white;
+}
+.f001{
+  font-size: 20px;
+  color: white;
+}
+.Hyper {
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) -3%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+}

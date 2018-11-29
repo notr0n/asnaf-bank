@@ -1,0 +1,45 @@
+.t0 {
+  margin-top: 20px;
+}
+.t1 {
+  color : white;
+}
+.t2{
+    background-color: red;
+    color : white;
+    height: 150px;
+    margin-top: 650px;
+}
+
+.t3{
+  border-style:dotted;
+  border-color: red;
+  border-radius: 50%;
+  border-width: thick;
+  margin-left: 40px;
+  margin-top: -110px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.a0 {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
