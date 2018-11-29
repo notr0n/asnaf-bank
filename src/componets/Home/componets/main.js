@@ -50,7 +50,7 @@ export default class Main extends Component {
               <ListItemIcon>
                 <LocalHospital/>
               </ListItemIcon>
-              <ListItemText><div class="font0">پزشکی و سلامت</div></ListItemText>
+              <ListItemText><div class="font0">پزشکی</div></ListItemText>
             </MenuItem>
             <MenuItem>
               <ListItemIcon>
@@ -74,13 +74,13 @@ export default class Main extends Component {
                 <ListItemIcon>
                   <Fastfood/>
                 </ListItemIcon>
-                <ListItemText><div class="font0">رستوران و غذا</div></ListItemText>
+                <ListItemText><div class="font0">رستوران</div></ListItemText>
               </MenuItem>
               <MenuItem>
                 <ListItemIcon>
                   <Palette/>
                 </ListItemIcon>
-                <ListItemText><div class="font0">آرایشی و بهداشتی</div></ListItemText>
+                <ListItemText><div class="font0">آرایشی</div></ListItemText>
               </MenuItem>
               <MenuItem>
                 <ListItemIcon>
