@@ -40,8 +40,9 @@ export default class Main extends Component {
             </div>
             <hr/>
             <Offers/><Offers/><Offers/>
+            <Offers/><Offers/><Offers/>
           </div>
-          <div class="col-lg-2 col-md-3 hidden-xs col-sm-3 t0" >
+          <div class="col-lg-2 col-md-2 hidden-xs col-sm-3 t0" >
 
           <Paper>
             <MenuList>

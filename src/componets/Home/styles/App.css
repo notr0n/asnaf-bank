@@ -7,8 +7,8 @@
 .t2{
     background-color: red;
     color : white;
-    height: 150px;
-    margin-top: 650px;
+    height: 160px;
+    margin-top: 1080px;
 }
 
 .t3{
@@ -17,7 +17,7 @@
   border-radius: 50%;
   border-width: thick;
   margin-left: 40px;
-  margin-top: -110px;
+  margin-top: -140px;
 }
 
 ul {
@@ -42,4 +42,7 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+}
+.header0 {
+  margin-top: 12px;
 }
