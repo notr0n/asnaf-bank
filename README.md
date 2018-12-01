@@ -19,3 +19,4 @@ npm i
 - [ ] Edit Category Page Ui 
 - [ ] Category Page Backend
 - [ ] Product Page Backend
+- [ ] Admin Product Managements
