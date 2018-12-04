@@ -37,7 +37,7 @@ onStarClick(nextValue, prevValue, name) {
                  component="img"
                  alt="Contemplative Reptile"
                  height="240"
-                 image="http://localhost/uni/p0/11.jpg"
+                 image={this.props.imgURL}
                  title="Contemplative Reptile"
                />
                <CardContent>
@@ -48,13 +48,13 @@ onStarClick(nextValue, prevValue, name) {
                             <Icon icon="location" accessibilityLabel="location" color="darkGray" />
                          </Box>
                          <Text align="center" bold color="darkGray">
-                         رستوران
+                         {this.props.Category}
                          </Text>
                      </Box>
                           <StarRatingComponent
                               name="rate1"
                               starCount={4}
-                              value={3}
+                              value={this.props.STAR}
                               onStarClick={this.onStarClick.bind(this)}
                             />
                       </Box>
@@ -64,7 +64,7 @@ onStarClick(nextValue, prevValue, name) {
                         </Text>
                       </Box>
                       <hr/>
-                      <Text bold color="darkGray">رستوران ایوان برج میلاد با منوی باز</Text>
+                      <Text bold color="darkGray">{this.props.Title}</Text>
                     </Box>
                     <br/>
 

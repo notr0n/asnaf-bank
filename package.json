@@ -9,6 +9,7 @@
     "google-maps-react": "^2.0.2",
     "primereact": "^2.0.0-rc.1",
     "react": "^16.6.0",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.0",
     "react-google-maps": "^9.4.5",
     "react-id-swiper": "^1.6.8",
