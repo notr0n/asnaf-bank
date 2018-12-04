@@ -20,3 +20,9 @@ npm i
 - [ ] Category Page Backend
 - [ ] Product Page Backend
 - [ ] Admin Product Managements
+
+# Offers Show Component props :
+- imgURL
+- Category
+- STAR
+- Title
