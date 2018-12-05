@@ -11,7 +11,7 @@ npm i
 - [x] Porducts Page First Ui
 - [x] Home Page First Ui
 - [x] Login Page Ui
-- [ ] Admin Page Ui
+- [x] Admin Page Ui
 - [ ] Connect Home page with API
 - [ ] Connect Admin To Home Page
 - [ ] Submit Career Ui 
