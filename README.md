@@ -1,5 +1,7 @@
 # Asnaf-Bank
 - This is a project that written in Reactjs and shows some career information in Some catrgories .
+
+![alt text](https://github.com/notr0n/asnaf-bank/blob/master/preview/1.png)
 ```
 git clone https://github.com/notr0n/asnaf-bank.git
 cd asnaf-bank
