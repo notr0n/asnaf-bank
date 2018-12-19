@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^3.4.0",
     "@material-ui/icons": "^3.0.1",
+    "axios": "^0.18.0",
     "gestalt": "^0.83.0",
     "google-maps-react": "^2.0.2",
     "primereact": "^2.0.0-rc.1",

@@ -16,7 +16,7 @@ import CardTravel from '@material-ui/icons/CardTravel';
 import Commute from '@material-ui/icons/Commute';
 import Description from '@material-ui/icons/Description';
 import Theaters from '@material-ui/icons/Theaters';
-
+import axios from 'axios';
 import {Image , Text , Sticky} from 'gestalt';
 import Offers from './offers.js';
 
@@ -25,7 +25,20 @@ import '../styles/App.css';
 import '../styles/bs/css/bootstrap-iso.css';
 
 export default class Main extends Component {
+  state = {
+    persons: []
+  }
+
+  async componentDidMount() {
+    await axios.get(`http://localhost/api/home.php`)
+    .then(res => {
+    const persons = res.data;
+    this.setState({ persons });
+    })
+    }
+    
   render() {
+    if(this.state.persons.length < 0) return null
     return (
       <div class="bootstrap-iso">
         <center>
@@ -39,7 +52,13 @@ export default class Main extends Component {
               <p class="t1">برگزیده</p>
             </div>
             <hr/>
-            <Offers/><Offers/><Offers/>
+            { this.state.persons.map(person =>
+              <Offers
+                imgURL={person.Pic}
+                STAR={person.StarRate}
+                Title={person.Title}
+              />)}
+            <Offers/><Offers/>
             <Offers/><Offers/><Offers/>
           </div>
           <div class="col-lg-2 col-md-2 hidden-xs col-sm-3 t0" >
